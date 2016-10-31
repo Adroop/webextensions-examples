@@ -24,11 +24,11 @@ Given a URL to a beast image, create and style an IMG node pointing to
 that image, then insert the node into the document.
 */
 function insertBeast(beastURL) {
-  var beastImage = document.createElement("img");
-  beastImage.setAttribute("src", beastURL);
-  beastImage.setAttribute("style", "width: 100vw");
-  beastImage.setAttribute("style", "height: 100vh");
-  document.body.appendChild(beastImage);
+  var beastImages = document.createElement("img");
+  beastImages.setAttribute("src", beastURL);
+  beastImages.setAttribute("style", "width: 100vw");
+  beastImages.setAttribute("style", "height: 100vh");
+  document.body.appendChild(beastImages);
 }
 
 /*
